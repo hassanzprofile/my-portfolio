@@ -3,7 +3,7 @@ export type ProjectCategory =
   | 'Character Animation'
   | 'Product Animation'
   | 'Motion Graphics'
-  | 'Game Assets'
+  | 'Agentic AI'
   | 'VFX'
   | 'Blender Projects';
 

@@ -79,24 +79,24 @@ export const PROJECTS: Project[] = [
   {
     id: 'p4',
     slug: 'mecha-spider-game-asset-pack',
-    title: 'Titanoid - Autonomous Mecha Drone Pack',
-    category: 'Game Assets',
-    thumbnail: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=80',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-futuristic-robotic-arm-moving-41584-large.mp4',
+    title: 'Chatbot',
+    category: 'Agentic AI',
+    thumbnail: 'chatbot.jpeg',
+    videoUrl: '',
     threeModelType: 'mech-arm',
     gallery: [
-      'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1200&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80'
+      'chatbot-blur.jpeg',
+      ''
     ],
-    description: 'Low-poly game-ready military mech pack complete with PBR 4K texture sets, walk/attack animations, and LOD levels.',
-    fullDetails: 'Optimized for Unity HDRP and Unreal Engine 5. Includes 4 LOD levels down to 4,000 tris for mobile and VR performance. Configured root motion animations and custom hit-reaction blend trees.',
-    technologies: ['Maya', 'Substance 3D Painter', 'Unity', 'Blender', 'Marmoset Toolbag'],
-    client: 'Cyberpulse Games',
+    description: '',
+    fullDetails: '',
+    technologies: [''],
+    client: 'Edupath.co',
     year: '2025',
     featured: false,
     stats: [
-      { label: 'LOD Levels', value: '4 Presets' },
-      { label: 'Texel Density', value: '20.48 px/cm' }
+      { label: 'LOD Levels', value: '1' },
+      { label: 'Texel Density', value: '3-5 sec' }
     ]
   },
   {
@@ -497,6 +497,6 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   { id: 'g2', title: 'Neomorphic Glass Prism Refraction', category: 'Motion Graphics', imageUrl: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&auto=format&fit=crop&q=80', software: 'Cinema 4D Octane', likes: 289 },
   { id: 'g3', title: 'Titanium Smartwatch Casing', category: 'Product Animation', imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80', software: 'Blender Cycles', likes: 512 },
   { id: 'g4', title: 'Quantum Core Energy Field', category: 'VFX', imageUrl: 'https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?w=800&auto=format&fit=crop&q=80', software: 'Houdini Axiom', likes: 418 },
-  { id: 'g5', title: 'Sci-Fi Corridor Modular Kit', category: 'Game Assets', imageUrl: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=80', software: 'Unreal Engine 5.5', likes: 305 },
+  { id: 'g5', title: 'Sci-Fi Corridor Modular Kit', category: 'Agentic AI', imageUrl: 'chatbot.jpeg', software: 'Unreal Engine 5.5', likes: 305 },
   { id: 'g6', title: 'Ancient Ruin Moss Scattering', category: 'Blender Projects', imageUrl: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=800&auto=format&fit=crop&q=80', software: 'Geometry Nodes', likes: 620 }
 ];

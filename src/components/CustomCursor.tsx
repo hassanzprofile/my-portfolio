@@ -42,8 +42,8 @@ export const CustomCursor: React.FC = () => {
       <div
         className={`fixed pointer-events-none z-50 rounded-full transition-transform duration-100 ease-out ${
           isPointer
-            ? 'w-10 h-10 -ml-5 -mt-5 bg-purple-500/30 border border-purple-400 scale-125'
-            : 'w-8 h-8 -ml-4 -mt-4 bg-cyan-500/15 border border-cyan-400/50'
+            ? 'w-10 h-10 -ml-5 -mt-5 bg-black-500/30 border border-black-400 scale-125'
+            : 'w-8 h-8 -ml-4 -mt-4 bg-black-500/15 border border-black-400/50'
         }`}
         style={{
           left: `${position.x}px`,
@@ -53,7 +53,7 @@ export const CustomCursor: React.FC = () => {
 
       {/* Inner Dot */}
       <div
-        className="fixed pointer-events-none z-50 w-2 h-2 -ml-1 -mt-1 rounded-full bg-cyan-400 shadow-sm shadow-cyan-400"
+        className="fixed pointer-events-none z-50 w-2 h-2 -ml-1 -mt-1 rounded-full bg-black-400 shadow-sm shadow-black-400"
         style={{
           left: `${position.x}px`,
           top: `${position.y}px`

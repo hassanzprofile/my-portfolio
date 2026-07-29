@@ -14,7 +14,7 @@ export const PortfolioSection: React.FC = () => {
     'Character Animation',
     'Product Animation',
     'Motion Graphics',
-    'Game Assets',
+    'Agentic AI',
     'VFX',
     'Blender Projects'
   ];
@@ -156,13 +156,13 @@ export const PortfolioSection: React.FC = () => {
                 </div>
 
                 {/* Action Trigger */}
-                <button
+                {/* <button
                   onClick={() => setActiveModalProject(project)}
                   className="w-full py-2.5 rounded-xl bg-slate-900/60 hover:bg-purple-600/20 text-xs font-semibold text-slate-200 hover:text-purple-300 border border-white/10 hover:border-purple-500/40 transition-all duration-200 flex items-center justify-center gap-1.5"
                 >
                   <Box className="w-3.5 h-3.5" />
                   <span>View Details & 3D Model</span>
-                </button>
+                </button> */}
               </div>
             </div>
           ))}
