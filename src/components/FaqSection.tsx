@@ -14,7 +14,7 @@ export const FaqSection: React.FC = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
         
         {/* Header */}
-        <div className="text-center max-w-2xl mx-auto space-y-4">
+        {/* <div className="text-center max-w-2xl mx-auto space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full glass-panel border border-cyan-500/30 text-cyan-300 text-xs font-mono">
             <HelpCircle className="w-3.5 h-3.5 text-purple-400" />
             <span>Got Questions?</span>
@@ -25,7 +25,7 @@ export const FaqSection: React.FC = () => {
           <p className="text-slate-300 text-sm leading-relaxed">
             Everything you need to know about production delivery, raw source files, and commercial licenses.
           </p>
-        </div>
+        </div> */}
 
         {/* Accordion list */}
         <div className="space-y-4">

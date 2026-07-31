@@ -1,11 +1,11 @@
 export type ProjectCategory =
   | 'All'
-  | 'Character Animation'
-  | 'Product Animation'
-  | 'Motion Graphics'
-  | 'Agentic AI'
-  | 'VFX'
-  | 'Blender Projects';
+  | '4k Ads'
+  | 'Web Devs'
+  | 'Voice AI'
+  | 'AI Chatbbots'
+  | 'AI Content Calenders'
+  | 'Buisness Automations';
 
 export interface Project {
   id: string;

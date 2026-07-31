@@ -1,5 +1,5 @@
 import React from 'react';
-import { Play, Send, ChevronDown, Sparkles, Box, ShieldCheck, Film, Code2 } from 'lucide-react';
+import { Play, Send, ChevronDown, DiscAlbumIcon, Box, ShieldCheck, Film, Code2 } from 'lucide-react';
 import { ThreeCanvas } from './ThreeCanvas';
 
 interface HeroProps {
@@ -22,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({ onViewPortfolio, onContactMe, onOpen
           <div className="lg:col-span-7 space-y-6 text-left">
             {/* Tag pill */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-panel border border-purple-500/30 text-purple-300 text-xs font-mono">
-              <Sparkles className="w-3.5 h-3.5 text-cyan-400 animate-pulse" />
+              <DiscAlbumIcon className="w-3.5 h-3.5 text-cyan-400 animate-pulse" />
               <span>3D Character Animation Director</span>
             </div>
 

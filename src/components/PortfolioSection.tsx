@@ -11,12 +11,12 @@ export const PortfolioSection: React.FC = () => {
 
   const categories: ProjectCategory[] = [
     'All',
-    'Character Animation',
-    'Product Animation',
-    'Motion Graphics',
-    'Agentic AI',
-    'VFX',
-    'Blender Projects'
+    '4K Ads',
+    'Web Devs',
+    'Voice AI',
+    'AI Chatbbots',
+    'AI Content Calenders',
+    'Buisness Automations'
   ];
 
   const filteredProjects = useMemo(() => {
@@ -99,13 +99,13 @@ export const PortfolioSection: React.FC = () => {
                 />
 
                 <div className="absolute inset-0 bg-slate-950/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-3">
-                  <button
+                  {/* <button
                     onClick={() => setActiveModalProject(project)}
-                    className="p-3 rounded-xl bg-purple-600 text-white hover:bg-purple-500 shadow-xl transition-transform hover:scale-110 flex items-center gap-1.5 text-xs font-semibold"
+                    className=""
                   >
-                    <Eye className="w-4 h-4" />
-                    <span>Quick Preview</span>
-                  </button>
+                    <Eye className="" />
+                    <span></span>
+                  </button> */}
                 </div>
 
                 <div className="absolute top-3 left-3 px-2.5 py-1 rounded-lg glass-panel text-[11px] font-mono font-medium text-cyan-300 border border-white/15">

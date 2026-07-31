@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Sparkles, Github, Twitter, Linkedin, Youtube, Code2, ArrowUp, Send, CheckCircle2 } from 'lucide-react';
+import { Sparkles, Github, Twitter, Linkedin, Youtube, Code2, ArrowUp, Send, CheckCircle2, Dice3Icon } from 'lucide-react';
 
 interface FooterProps {
   onNavigate: (sectionId: string) => void;
@@ -42,16 +42,16 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenZipModal }) =>
             <div className="flex items-center gap-2.5">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-purple-600 via-blue-600 to-cyan-400 p-[1px]">
                 <div className="w-full h-full bg-slate-950 rounded-[11px] flex items-center justify-center">
-                  <Sparkles className="w-4 h-4 text-cyan-400" />
+                  <Dice3Icon className="w-4 h-4 text-cyan-400" />
                 </div>
               </div>
               <span className="text-lg font-bold tracking-tight text-white">
-                VANCE<span className="text-purple-400">3D</span>
+                Calliqo<span className="text-purple-400">3D Agency</span>
               </span>
             </div>
 
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
-              High-performance 3D character animation, real-time Unreal Engine 5 production, character rigging, and motion graphics for film, games, and commercial brands.
+              High-performance 3D animation and motion graphics for commercial brands.
             </p>
 
             {/* Social icons */}
@@ -65,9 +65,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenZipModal }) =>
               <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-2 rounded-xl glass-panel text-slate-300 hover:text-blue-400">
                 <Linkedin className="w-4 h-4" />
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noreferrer" className="p-2 rounded-xl glass-panel text-slate-300 hover:text-rose-400">
+              {/* <a href="https://youtube.com" target="_blank" rel="noreferrer" className="p-2 rounded-xl glass-panel text-slate-300 hover:text-rose-400">
                 <Youtube className="w-4 h-4" />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -85,13 +85,13 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenZipModal }) =>
           </div>
 
           {/* Quick Source Code & Tools */}
-          <div className="space-y-3">
-            <h4 className="text-white font-bold font-mono uppercase tracking-wider text-[11px]">Developer & Export</h4>
-            <ul className="space-y-2 text-slate-400">
+          <div className="">
+            <h4 className=""></h4>
+            <ul className="">
               <li>
-                <button onClick={onOpenZipModal} className="text-cyan-400 hover:underline flex items-center gap-1">
-                  <Code2 className="w-3.5 h-3.5" />
-                  <span>Download Code (.ZIP)</span>
+                <button onClick={onOpenZipModal} className="">
+                  <Code2 className="" />
+                  <span></span>
                 </button>
               </li>
               <li><button onClick={() => setPrivacyModalOpen(true)} className="hover:text-purple-300">Privacy Policy</button></li>
@@ -100,32 +100,32 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenZipModal }) =>
           </div>
 
           {/* Footer Newsletter */}
-          <div className="space-y-3">
-            <h4 className="text-white font-bold font-mono uppercase tracking-wider text-[11px]">Stay Updated</h4>
-            <p className="text-slate-400 text-[11px]">Get our latest 3D tutorials and rigging breakdown nodes.</p>
+          <div className="">
+            <h4 className=""></h4>
+            <p className=""></p>
 
             {subscribed && (
-              <div className="text-[11px] text-emerald-400 font-mono flex items-center gap-1">
-                <CheckCircle2 className="w-3.5 h-3.5" />
-                <span>Subscribed!</span>
+              <div className="">
+                <CheckCircle2 className="" />
+                <span></span>
               </div>
             )}
 
-            <form onSubmit={handleFooterNewsletter} className="flex items-center gap-1.5">
+            <form onSubmit={handleFooterNewsletter} className="">
               <input
-                type="email"
-                placeholder="email@domain.com"
+                type=""
+                placeholder=""
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="w-full px-3 py-2 rounded-xl bg-slate-900 border border-white/10 text-white placeholder-slate-500 focus:outline-none"
+                className=""
               />
-              <button
+              {/* <button
                 type="submit"
                 className="p-2 rounded-xl bg-purple-600 text-white hover:bg-purple-500"
               >
                 <Send className="w-3.5 h-3.5" />
-              </button>
+              </button> */}
             </form>
           </div>
 
@@ -133,12 +133,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenZipModal }) =>
 
         {/* Bottom Rights */}
         <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-slate-400 text-[11px] font-mono gap-4">
-          <div>© {new Date().getFullYear()} Julian Vance 3D Animation Studio. All rights reserved.</div>
+          <div>©  Hassan's  3D Animation Agency. All rights reserved.</div>
           <div className="flex items-center gap-4">
-            <span>Built with React & Three.js</span>
+            <span></span>
             <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-cyan-400 hover:underline flex items-center gap-1">
               <span>Top</span>
-              <ArrowUp className="w-3.5 h-3.5" />
+              <ArrowUp className="w-4 h-4" />
             </button>
           </div>
         </div>

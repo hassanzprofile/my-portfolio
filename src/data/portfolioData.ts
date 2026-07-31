@@ -3,143 +3,143 @@ import { Project, BlogPost, Service, Testimonial, Experience, SkillItem, Pricing
 export const PROJECTS: Project[] = [
   {
     id: 'p1',
-    slug: 'cyberpunk-character-rig-2026',
-    title: 'Aetheria - Cyberpunk Character & Rig',
-    category: 'Character Animation',
-    thumbnail: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-futuristic-robotic-arm-moving-41584-large.mp4',
-    threeModelType: 'cyber-helmet',
+    slug: '4K Ads',
+    title: '',
+    category: '4K Ads',
+    thumbnail: '',
+    videoUrl: '',
+    threeModelType: '',
     gallery: [
-      'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1200&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?w=1200&auto=format&fit=crop&q=80'
+      '',
+      '',
+      ''
     ],
-    description: 'A full quad-mesh cinematic character equipped with modular facial blendshapes, cloth simulation setup, and custom FK/IK spine rigging for AAA game integration.',
-    fullDetails: 'Engineered for real-time rendering in Unreal Engine 5.5, Aetheria features over 180 facial blendshapes for photorealistic emotional performance. Built with Substance Painter procedural skin shaders, hair groom simulation, and auto-IK foot placement.',
+    description: '',
+    fullDetails: '',
     technologies: ['Blender', 'ZBrush', 'Unreal Engine 5.5', 'Substance Painter', 'Marvelous Designer'],
-    client: 'Nexus Interactive Studios',
+    client: '',
     year: '2026',
-    liveUrl: 'https://aetheria-3d.example.com',
-    githubUrl: 'https://github.com/example/aetheria-rig',
+    liveUrl: '',
+    githubUrl: '',
     featured: true,
     stats: [
-      { label: 'Facial Blendshapes', value: '184 Custom Keys' },
-      { label: 'Polygon Count', value: '82,000 Quads' },
-      { label: 'Render Speed', value: '60 FPS Realtime' }
+      { label: '', value: '' },
+      { label: '', value: ' ' },
+      { label: '', value: '' }
     ]
   },
   {
     id: 'p2',
-    slug: 'lumina-holographic-watch-reveal',
-    title: 'Lumina - Holographic Smartwatch Commercial',
-    category: 'Product Animation',
-    thumbnail: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-spinning-around-a-digital-globe-41582-large.mp4',
-    threeModelType: 'sneaker-3d',
+    slug: 'Web Devs',
+    title: '',
+    category: 'Web Devs',
+    thumbnail: '',
+    videoUrl: '',
+    threeModelType: '',
     gallery: [
-      'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=1200&auto=format&fit=crop&q=80'
+      '',
+      ''
     ],
-    description: '3D CAD explode-view product reel showcasing titanium wrist casing, floating OLED holographic lens, and magnetic strap assembly.',
-    fullDetails: 'Created high-fidelity CAD imports with clean topology refinement in Cinema 4D. Applied custom Octane metallic refraction materials and GPU raytraced depth of field.',
+    description: '',
+    fullDetails: '',
     technologies: ['Cinema 4D', 'Octane Render', 'After Effects', 'RizomUV', 'MoGraph'],
-    client: 'Lumina Tech Inc',
+    client: '',
     year: '2025',
-    liveUrl: 'https://lumina-reveal.example.com',
+    liveUrl: '',
     featured: true,
     stats: [
-      { label: 'CAD Accuracy', value: '0.01mm Sub-D' },
-      { label: 'Material Layers', value: '18 Complex Shaders' }
+      { label: '', value: '' },
+      { label: '', value: '' }
     ]
   },
   {
     id: 'p3',
-    slug: 'quantum-title-sequence-vfx',
-    title: 'Quantum Realm - Cinematic Title Sequence',
-    category: 'Motion Graphics',
-    thumbnail: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&auto=format&fit=crop&q=80',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-hands-holding-a-glowing-digital-cube-41586-large.mp4',
-    threeModelType: 'crystal-orb',
+    slug: 'Voice AI',
+    title: '',
+    category: 'Voice AI',
+    thumbnail: '',
+    videoUrl: '',
+    threeModelType: '',
     gallery: [
-      'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1200&auto=format&fit=crop&q=80',
-      'https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?w=1200&auto=format&fit=crop&q=80'
+      '',
+      ''
     ],
-    description: 'Abstract particle-driven 3D title design featuring fluid dynamics, volumetric light rays, and kinetic typography.',
-    fullDetails: 'Simulated 12 million quantum particles using Houdini Axiom solver and rendered with Redshift GPU. Integrated custom 3D text typography extruded with procedural noise maps.',
+    description: '',
+    fullDetails: '',
     technologies: ['Houdini', 'Redshift', 'After Effects', 'Nuke', 'Cinema 4D'],
-    client: 'Vanguard Film Studio',
+    client: '',
     year: '2026',
-    liveUrl: 'https://quantum-vfx.example.com',
+    liveUrl: '',
     featured: true,
     stats: [
-      { label: 'Particle Count', value: '12 Million' },
-      { label: 'Resolution', value: '4K DCI HDR' }
+      { label: '', value: '' },
+      { label: '', value: '' }
     ]
   },
   {
     id: 'p4',
-    slug: 'mecha-spider-game-asset-pack',
-    title: 'Chatbot',
-    category: 'Agentic AI',
+    slug: 'AI Chatbots',
+    title: '',
+    category: 'AI Chatbots',
     thumbnail: 'chatbot.jpeg',
     videoUrl: '',
-    threeModelType: 'mech-arm',
+    threeModelType: '',
     gallery: [
-      'chatbot-blur.jpeg',
+      '',
       ''
     ],
     description: '',
     fullDetails: '',
     technologies: [''],
-    client: 'Edupath.co',
-    year: '2025',
+    client: '',
+    year: '',
     featured: false,
     stats: [
-      { label: 'LOD Levels', value: '1' },
-      { label: 'Texel Density', value: '3-5 sec' }
+      { label: '', value: '' },
+      { label: '', value: '' }
     ]
   },
   {
     id: 'p5',
-    slug: 'nebula-portal-vfx-breakdown',
-    title: 'Hyperdrive - Interstellar Portal VFX',
-    category: 'VFX',
-    thumbnail: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=800&auto=format&fit=crop&q=80',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-spinning-around-a-digital-globe-41582-large.mp4',
-    threeModelType: 'drone-core',
+    slug: 'AI Content Calenders',
+    title: '',
+    category: 'AI Content Calenders',
+    thumbnail: '',
+    videoUrl: '',
+    threeModelType: '',
     gallery: [
-      'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=1200&auto=format&fit=crop&q=80'
+      ''
     ],
-    description: 'Complex visual effects sequence featuring gravitational lensing, pyro simulations, and camera motion tracking.',
-    fullDetails: 'Full green-screen plate compositing with 3D camera tracking in SynthEyes. Simulated black hole gravitational distortion using custom Nuke ray-marching shaders.',
+    description: '',
+    fullDetails: '',
     technologies: ['Nuke', 'Houdini', 'Maya', 'SynthEyes', 'Davinci Resolve'],
-    client: 'Orion FX',
-    year: '2026',
+    client: '',
+    year: '',
     featured: false,
     stats: [
-      { label: 'VFX Passes', value: '34 Deep AOVs' }
+      { label: '', value: '' }
     ]
   },
   {
     id: 'p6',
-    slug: 'geometry-nodes-environment-blender',
-    title: 'Overgrown Ruins - Procedural Blender Environment',
-    category: 'Blender Projects',
-    thumbnail: 'https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?w=800&auto=format&fit=crop&q=80',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-hands-holding-a-glowing-digital-cube-41586-large.mp4',
-    threeModelType: 'crystal-orb',
+    slug: 'Buisness Automations',
+    title: '',
+    category: 'Buisness Automations',
+    thumbnail: '',
+    videoUrl: '',
+    threeModelType: '',
     gallery: [
-      'https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?w=1200&auto=format&fit=crop&q=80'
+      ''
     ],
-    description: '100% procedural moss, vine growth, and ancient ruin generator created with Blender Geometry Nodes.',
-    fullDetails: 'A powerful tool preset that scatters procedural foliage with realistic gravity drooping, seasonal color variation, and automatic obstacle avoidance.',
+    description: '.',
+    fullDetails: '',
     technologies: ['Blender 4.3', 'Geometry Nodes', 'Cycles Render', 'Photoshop'],
-    client: 'OpenSource CG Community',
+    client: '',
     year: '2026',
-    githubUrl: 'https://github.com/example/blender-geometry-ruins',
+    githubUrl: '',
     featured: true,
     stats: [
-      { label: 'Node Tree', value: '420 Sub-nodes' }
+      { label: '', value: '' }
     ]
   }
 ];
@@ -223,7 +223,7 @@ Lumen delivers sub-frame dynamic bounce lighting. Combined with Substrate materi
 `,
     date: 'July 10, 2026',
     author: {
-      name: 'Julian Vance',
+      name: '',
       role: 'Lead 3D Animator & Technical Director',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80'
     },
@@ -247,7 +247,7 @@ Texture mapping without UV unwrapping is the secret weapon for fast-paced commer
 `,
     date: 'June 28, 2026',
     author: {
-      name: 'Julian Vance',
+      name: '',
       role: 'Lead 3D Animator & Technical Director',
       avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80'
     },
@@ -459,28 +459,28 @@ export const PRICING_PLANS: PricingPlan[] = [
 
 export const FAQS: FaqItem[] = [
   {
-    id: 'faq1',
-    question: 'What software and file formats do you deliver?',
-    answer: 'We deliver final high-bitrate video formats (.MP4, .MOV with ProRes/DNxHR, or EXR frame sequences). For source files, we provide .BLEND, .C4D, .MA, .FBX, .OBJ, .GLTF/GLB, or complete Unreal Engine 5 project directories depending on your license agreement.',
-    category: 'General'
+    id: '',
+    question: '',
+    answer: '',
+    category: ''
   },
   {
-    id: 'faq2',
-    question: 'How does the project process and revision workflow work?',
-    answer: 'Our workflow consists of 4 clear milestones: 1) Concept Brief & Storyboard, 2) 3D Blocking & Rigging Preview, 3) Shading, Lighting & Animation Pass, and 4) Final High-Resolution Composite. You get dedicated revision checkpoints at each phase.',
-    category: 'Process'
+    id: '',
+    question: '',
+    answer: '',
+    category: ''
   },
   {
-    id: 'faq3',
-    question: 'Can you work with existing CAD models or character sculpts?',
-    answer: 'Yes! We frequently ingest raw CAD data (STEP, IGES, SolidWorks) or high-poly ZBrush sculpts. We handle topology retopology, UV unwrapping, and material mapping in-house.',
-    category: 'Process'
+    id: '',
+    question: '',
+    answer: '',
+    category: ''
   },
   {
-    id: 'faq4',
-    question: 'Do I get full commercial rights to the rendered assets?',
-    answer: 'Yes. Upon final payment milestone completion, you receive full perpetual commercial broadcast and digital distribution rights for all rendered outputs.',
-    category: 'Licensing'
+    id: '',
+    question: '',
+    answer: '',
+    category: ''
   }
 ];
 
@@ -493,10 +493,10 @@ export const STATS: StatItem[] = [
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
-  { id: 'g1', title: 'Cybernetic Skull Surface Polish', category: 'Character Animation', imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80', software: 'ZBrush & Substance', likes: 342 },
-  { id: 'g2', title: 'Neomorphic Glass Prism Refraction', category: 'Motion Graphics', imageUrl: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&auto=format&fit=crop&q=80', software: 'Cinema 4D Octane', likes: 289 },
-  { id: 'g3', title: 'Titanium Smartwatch Casing', category: 'Product Animation', imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80', software: 'Blender Cycles', likes: 512 },
-  { id: 'g4', title: 'Quantum Core Energy Field', category: 'VFX', imageUrl: 'https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?w=800&auto=format&fit=crop&q=80', software: 'Houdini Axiom', likes: 418 },
+  { id: 'g1', title: 'Cybernetic Skull Surface Polish', category: 'Character Animation', imageUrl: '', software: 'ZBrush & Substance', likes: 342 },
+  { id: 'g2', title: 'Neomorphic Glass Prism Refraction', category: 'Motion Graphics', imageUrl: '', software: 'Cinema 4D Octane', likes: 289 },
+  { id: 'g3', title: 'Titanium Smartwatch Casing', category: 'Product Animation', imageUrl: '', software: 'Blender Cycles', likes: 512 },
+  { id: 'g4', title: 'Quantum Core Energy Field', category: 'VFX', imageUrl: '', software: 'Houdini Axiom', likes: 418 },
   { id: 'g5', title: 'Sci-Fi Corridor Modular Kit', category: 'Agentic AI', imageUrl: 'chatbot.jpeg', software: 'Unreal Engine 5.5', likes: 305 },
-  { id: 'g6', title: 'Ancient Ruin Moss Scattering', category: 'Blender Projects', imageUrl: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=800&auto=format&fit=crop&q=80', software: 'Geometry Nodes', likes: 620 }
+  { id: 'g6', title: 'Ancient Ruin Moss Scattering', category: 'Blender Projects', imageUrl: '0', software: 'Geometry Nodes', likes: 620 }
 ];
