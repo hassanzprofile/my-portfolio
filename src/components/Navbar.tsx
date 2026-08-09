@@ -72,10 +72,10 @@ export const Navbar: React.FC<NavbarProps> = ({
           </div>
           <div className="text-left">
             <span className="text-lg font-bold tracking-tight bg-gradient-to-r from-white via-slate-200 to-cyan-300 bg-clip-text text-transparent">
-              Calliqo<span className="text-purple-400"> BD</span>
+              Hassan's<span className="text-purple-400"> </span>
             </span>
             <span className="block text-[10px] tracking-widest text-slate-400 uppercase font-mono">
-              Agency
+              Portfolio
             </span>
           </div>
         </button>

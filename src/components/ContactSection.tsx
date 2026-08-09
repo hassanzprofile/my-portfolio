@@ -101,7 +101,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialSubject }
                   </div>
                   <div>
                     <span className="text-slate-400 font-mono block">Agency Line</span>
-                    <span className="text-white font-semibold">+92 317 6652745</span>
+                    <span className="text-white font-semibold">+1 (929) 612-8224</span>
                   </div>
                 </div>
 
@@ -162,7 +162,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialSubject }
                   <label className="text-xs text-slate-300 font-mono block mb-1">Your Name *</label>
                   <input
                     type="text"
-                    placeholder="e.g. Zirwa"
+                    placeholder="e.g. Ali"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     required
@@ -174,7 +174,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialSubject }
                   <label className="text-xs text-slate-300 font-mono block mb-1">Email Address *</label>
                   <input
                     type="email"
-                    placeholder="e.g. zirwayawar@gmail.com"
+                    placeholder="e.g. calio123@gmail.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required

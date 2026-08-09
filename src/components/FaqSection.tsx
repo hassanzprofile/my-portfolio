@@ -10,8 +10,8 @@ export const FaqSection: React.FC = () => {
   };
 
   return (
-    <section className="py-24 relative overflow-hidden bg-slate-950">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
+    <section className="">
+      <div className="">
         
         {/* Header */}
         {/* <div className="text-center max-w-2xl mx-auto space-y-4">
@@ -35,11 +35,11 @@ export const FaqSection: React.FC = () => {
             return (
               <div
                 key={faq.id}
-                className="glass-panel rounded-2xl border border-white/10 overflow-hidden transition-all duration-200"
+                className=""
               >
                 <button
                   onClick={() => toggleFaq(faq.id)}
-                  className="w-full p-5 text-left flex items-center justify-between gap-4 font-semibold text-sm text-white hover:text-purple-300 transition-colors"
+                  className=""
                 >
                   <span>{faq.question}</span>
                   <ChevronDown
@@ -50,7 +50,7 @@ export const FaqSection: React.FC = () => {
                 </button>
 
                 {isOpen && (
-                  <div className="px-5 pb-5 text-xs text-slate-300 leading-relaxed border-t border-white/5 pt-3 animate-in fade-in">
+                  <div className="">
                     {faq.answer}
                   </div>
                 )}

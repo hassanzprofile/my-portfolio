@@ -133,7 +133,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenZipModal }) =>
 
         {/* Bottom Rights */}
         <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-slate-400 text-[11px] font-mono gap-4">
-          <div>©  Hassan's  3D Animation Agency. All rights reserved.</div>
+          <div>©  3D Animation Agency. All rights reserved.</div>
           <div className="flex items-center gap-4">
             <span></span>
             <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-cyan-400 hover:underline flex items-center gap-1">

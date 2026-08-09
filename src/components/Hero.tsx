@@ -23,7 +23,7 @@ export const Hero: React.FC<HeroProps> = ({ onViewPortfolio, onContactMe, onOpen
             {/* Tag pill */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass-panel border border-purple-500/30 text-purple-300 text-xs font-mono">
               <DiscAlbumIcon className="w-3.5 h-3.5 text-cyan-400 animate-pulse" />
-              <span>3D Character Animation Director</span>
+              <span>3D  Animation Developer</span>
             </div>
 
             {/* Main Headline */}

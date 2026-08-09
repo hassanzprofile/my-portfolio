@@ -149,7 +149,7 @@ export const BLOG_POSTS: BlogPost[] = [
     id: 'b1',
     slug: 'mastering-3d-character-rigging-blender-2026',
     title: 'Mastering Advanced 3D Character Rigging in Blender 4.3+',
-    coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&auto=format&fit=crop&q=80',
+    coverImage: 'yyy.jpeg',
     category: 'Rigging & Animation',
     tags: ['Blender', 'Rigging', 'Character Design', 'Tutorial', 'GameDev'],
     description: 'A comprehensive deep-dive into bone constraints, weight painting workflows, driver expressions, and non-destructive facial setups.',
@@ -192,9 +192,9 @@ Avoid the classic "candy wrapper" twist defect when wrist bones rotate by applyi
 `,
     date: 'July 18, 2026',
     author: {
-      name: 'Julian Vance',
+      name: 'Hassan',
       role: 'Lead 3D Animator & Technical Director',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80'
+      avatar: 'yyy.jpeg'
     },
     readingTime: '6 min read',
     commentsCount: 2,
@@ -205,7 +205,7 @@ Avoid the classic "candy wrapper" twist defect when wrist bones rotate by applyi
     id: 'b2',
     slug: 'unreal-engine-5-realtime-cinematics-guide',
     title: 'Building Next-Gen Realtime Cinematics in Unreal Engine 5.5',
-    coverImage: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=1200&auto=format&fit=crop&q=80',
+    coverImage: 'yyy.jpeg',
     category: 'Real-Time Rendering',
     tags: ['Unreal Engine', 'Lumen', 'Nanite', 'Cinematics', 'VFX'],
     description: 'How to utilize Lumen dynamic global illumination, Nanite tessellation, and Sequencer to craft film-quality animation sequences without offline rendering delays.',
@@ -225,7 +225,7 @@ Lumen delivers sub-frame dynamic bounce lighting. Combined with Substrate materi
     author: {
       name: '',
       role: 'Lead 3D Animator & Technical Director',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80'
+      avatar: 'yyy.jpeg'
     },
     readingTime: '8 min read',
     commentsCount: 5,
@@ -236,7 +236,7 @@ Lumen delivers sub-frame dynamic bounce lighting. Combined with Substrate materi
     id: 'b3',
     slug: 'procedural-node-trees-cinema4d-redshift',
     title: 'Procedural Shader Creation in Redshift & Cinema 4D',
-    coverImage: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=1200&auto=format&fit=crop&q=80',
+    coverImage: 'yyy.jpeg',
     category: 'Motion Graphics',
     tags: ['Cinema 4D', 'Redshift', 'Shaders', 'Motion Design'],
     description: 'Unlocking hyper-realistic metallic, worn, and emissive textures using node-based procedural noise blending.',
@@ -249,7 +249,7 @@ Texture mapping without UV unwrapping is the secret weapon for fast-paced commer
     author: {
       name: '',
       role: 'Lead 3D Animator & Technical Director',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80'
+      avatar: 'yyy.jpeg'
     },
     readingTime: '5 min read',
     commentsCount: 1,
@@ -265,7 +265,7 @@ export const SERVICES: Service[] = [
     description: 'High-octane character performances, mechanical walk cycles, lip-syncing, and cinematic combat choreography for games, film, and commercials.',
     iconName: 'Clapperboard',
     deliverables: ['Custom Character Rigging', 'Keyframe & Mocap Polishing', 'FBX / Alembic / USD Export', 'Facial Performance Capture'],
-    priceStarting: '$1,200',
+    priceStarting: '$----',
     turnaround: '3 - 7 Days',
     popular: true
   },
@@ -275,7 +275,7 @@ export const SERVICES: Service[] = [
     description: 'Rock-solid FK/IK body armatures, facial blendshape trees, cloth/hair physics setups, and clean weight painting built for game engines or offline renders.',
     iconName: 'Bone',
     deliverables: ['Full Body FK/IK Controls', '100+ Facial Blendshapes', 'Dynamic Cloth & Hair Physics', 'Unreal Engine Control Rig'],
-    priceStarting: '$800',
+    priceStarting: '$----',
     turnaround: '2 - 5 Days'
   },
   {
@@ -284,7 +284,7 @@ export const SERVICES: Service[] = [
     description: 'Photorealistic exploded-view CAD animations, studio lighting setups, liquid simulations, and broadcast-ready promotional product video spots.',
     iconName: 'Box',
     deliverables: ['High-poly Surface Refinement', 'Macro Camera Movements', '1080p / 4K Commercial Render', 'Sound Design Integration'],
-    priceStarting: '$1,500',
+    priceStarting: '$-----',
     turnaround: '5 - 10 Days',
     popular: true
   },
@@ -294,7 +294,7 @@ export const SERVICES: Service[] = [
     description: 'Abstract particle dynamics, futuristic broadcast openers, HUD hologram UI animations, and high-impact logo stings.',
     iconName: 'Sparkles',
     deliverables: ['Houdini Particle Dynamics', 'Custom 3D Typography', 'After Effects Compositing', 'Alpha Channel Video Formats'],
-    priceStarting: '$950',
+    priceStarting: '$----',
     turnaround: '3 - 6 Days'
   },
   {
@@ -303,7 +303,7 @@ export const SERVICES: Service[] = [
     description: 'Optimized low-poly props, mechanical drones, modular environment kits, PBR 4K textures, and collision mesh generation.',
     iconName: 'Gamepad2',
     deliverables: ['Sub-D Quad Topology', '4K PBR Texture Maps (PBR)', 'LOD 0-3 Generation', 'Unity & Unreal Project Files'],
-    priceStarting: '$650',
+    priceStarting: '$----',
     turnaround: '2 - 4 Days'
   },
   {
@@ -312,7 +312,7 @@ export const SERVICES: Service[] = [
     description: 'Seamless pacing, sound mixing, motion tracking, chromatic color correction, and final master encoding for digital platforms.',
     iconName: 'Video',
     deliverables: ['Timeline Editing', 'Color Pass in DaVinci Resolve', 'Sound Effects & Foley Mix', 'Social Media Format Exports'],
-    priceStarting: '$500',
+    priceStarting: '$----',
     turnaround: '1 - 3 Days'
   }
 ];
@@ -323,9 +323,9 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Marcus Sterling',
     role: 'Creative Director',
     company: 'Apex Game Studios',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80',
+    avatar: 'yyy.jpeg',
     rating: 5,
-    review: 'Julian delivered unbelievable character rigging for our AAA sci-fi shooter prototype. The facial blendshapes integrated seamlessly into Unreal Engine 5 without a single hitch!',
+    review: 'Hassan delivered unbelievable character rigging for our AAA sci-fi shooter prototype. The facial blendshapes integrated seamlessly into Unreal Engine 5 without a single hitch!',
     projectRef: 'Aetheria - Cyberpunk Character'
   },
   {
@@ -333,7 +333,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Elena Rostova',
     role: 'Head of Product Marketing',
     company: 'Lumina Tech',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
+    avatar: 'yyy.jpeg',
     rating: 5,
     review: 'The 3D exploded view product commercial generated over 2.4M organic views on launch week. The lighting, camera choreography, and glass textures were absolute perfection.',
     projectRef: 'Lumina Smartwatch Reveal'
@@ -343,9 +343,9 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'David Chen',
     role: 'Executive Producer',
     company: 'Vanguard Pictures',
-    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80',
+    avatar: 'yyy.jpeg',
     rating: 5,
-    review: 'Julian has an exceptional eye for timing, weight, and visual polish. He completed our title VFX sequence ahead of schedule and incorporated feedback instantly.',
+    review: 'Hassan has an exceptional eye for timing, weight, and visual polish. He completed our title VFX sequence ahead of schedule and incorporated feedback instantly.',
     projectRef: 'Quantum Realm Title VFX'
   }
 ];
@@ -404,56 +404,56 @@ export const SKILLS: SkillItem[] = [
 
 export const PRICING_PLANS: PricingPlan[] = [
   {
-    id: 'p-basic',
-    name: 'Starter Animation',
-    price: '$950',
-    period: 'per project',
-    description: 'Perfect for short social media spots, 3D logo stings, and basic 3D asset rigs.',
+    id: '',
+    name: '',
+    price: '',
+    period: '',
+    description: '',
     features: [
-      'Up to 10 seconds of 3D Animation',
-      'Full HD 1080p Resolution Render',
-      'Basic Lighting & Texturing',
-      '2 Revision Rounds',
-      'Stock Audio & Sound Effects',
-      '3-4 Days Turnaround'
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
     ],
     highlighted: false,
-    ctaText: 'Choose Starter'
+    ctaText: ''
   },
   {
-    id: 'p-pro',
-    name: 'Professional Commercial',
-    price: '$2,450',
-    period: 'per project',
-    description: 'Our most popular tier for product reveals, complex character rigging, and broadcast commercial clips.',
+    id: '',
+    name: '',
+    price: '',
+    period: '',
+    description: '',
     features: [
-      'Up to 30 seconds of 4K Cinema Render',
-      'Complex Character / Product Rigging',
-      'Photorealistic Shading & Lighting',
-      'Particle Dynamics & FX Elements',
-      'Unreal Engine 5 Source Scene',
-      'Unlimited Revisions during Draft',
-      '5-7 Days Turnaround'
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
     ],
     highlighted: true,
-    ctaText: 'Start Pro Project'
+    ctaText: ''
   },
   {
-    id: 'p-enterprise',
-    name: 'Full Cinematic / Game Pack',
-    price: '$4,800+',
-    period: 'per campaign',
-    description: 'Tailored for AAA game trailers, full character cast rigging, or multi-spot commercial campaigns.',
+    id: '',
+    name: '',
+    price: '',
+    period: '',
+    description: '',
     features: [
-      '60+ seconds of 4K HDR Animation',
-      'Multi-character Performance & Lip-sync',
-      'Houdini Fluid / Pyro VFX Simulation',
-      'Dedicated Technical Director Support',
-      'Full IP Ownership & Raw Project Files',
-      'Priority Turnaround & 24/7 Slack Access'
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
     ],
     highlighted: false,
-    ctaText: 'Contact Enterprise'
+    ctaText: ''
   }
 ];
 
@@ -485,11 +485,11 @@ export const FAQS: FaqItem[] = [
 ];
 
 export const STATS: StatItem[] = [
-  { id: 's1', label: 'Projects Completed', value: 140, suffix: '+', icon: 'CheckCircle2' },
-  { id: 's2', label: 'Happy Global Clients', value: 85, suffix: '+', icon: 'Smile' },
-  { id: 's3', label: 'Industry Awards', value: 12, suffix: '', icon: 'Trophy' },
-  { id: 's4', label: 'Years Experience', value: 7, suffix: ' Yrs', icon: 'Calendar' },
-  { id: 's5', label: 'Render Hours Saved', value: 12500, suffix: 'h', icon: 'Zap' }
+  { id: 's1', label: 'Projects Completed', value: 20, suffix: '+', icon: 'CheckCircle2' },
+  { id: 's2', label: 'Happy Global Clients', value: 9, suffix: '+', icon: 'Smile' },
+  { id: 's3', label: 'Industry Awards', value: 2, suffix: '', icon: 'Trophy' },
+  { id: 's4', label: 'Years Experience', value: 2, suffix: ' Yrs', icon: 'Calendar' },
+  { id: 's5', label: 'Render Hours Saved', value: 120, suffix: 'h', icon: 'Zap' }
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
