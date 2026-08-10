@@ -2,9 +2,11 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/hassanzprofile/my-portfolio/main/assets/readme-title.svg"
-     alt="My 3D Portfolio"
-     width="900">
+
+
+![My 3D Portfolio](assets/readme-title.svg)
+
+
 
 ### 🎨 Technical 3D Web Animator • ⚡ Workflow Creator • 🤖 AI & Agent Enthusiast
 
