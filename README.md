@@ -4,7 +4,7 @@
 
 
 
-![My 3D Portfolio](assets/readme-title.svg)
+![My 3D Portfolio](./assets/readme-title.svg)
 
 
 
