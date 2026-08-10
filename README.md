@@ -19,7 +19,7 @@ creative work, technical skills, projects, services and professional experience.
 </div>
 <div align="right">
 <br/>
-[![ Live Preview](https://my-portfolio-dun-nine-87.vercel.app/)
+[ Live Preview](https://my-portfolio-dun-nine-87.vercel.app/)
 <br/>
 </div>
 
