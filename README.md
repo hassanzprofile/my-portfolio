@@ -19,7 +19,7 @@ creative work, technical skills, projects, services and professional experience.
 </div>
 <div align="right">
 <br/>
-[![🚀 Live Preview](https://img.shields.io/badge/🚀%20LIVE%20PREVIEW-Visit%20Website-8B5CF6?style=for-the-badge)](https://my-portfolio-dun-nine-87.vercel.app/)
+[![ Live Preview](https://my-portfolio-dun-nine-87.vercel.app/)
 <br/>
 </div>
 
