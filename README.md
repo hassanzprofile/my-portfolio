@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/readme-title.svg"
+<img src="./assets/readme-title.svg"
  alt="My 3D Portfolio">
 
 ### 🎨 Technical 3D Web Animator • ⚡ Workflow Creator • 🤖 AI & Agent Enthusiast
