@@ -21,7 +21,7 @@ creative work, technical skills, projects, services and professional experience.
 ![Vite](https://img.shields.io/badge/Vite-Fast-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 <br/>
 </div>
-<div align="right">
+<div align="left">
 <br/>
 [ Live Preview](https://my-portfolio-dun-nine-87.vercel.app/)
 <br/>
