@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# 🚀✨ HASSAN'S 3D PORTFOLIO ✨🚀
+◼ HASSAN'S 3D PORTFOLIO ◼
 
 ### 🎨 Technical 3D Web Animator • ⚡ Workflow Creator • 🤖 AI & Agent Enthusiast
 
