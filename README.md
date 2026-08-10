@@ -2,7 +2,8 @@
 
 <div align="center">
 
-◼ HASSAN'S 3D PORTFOLIO ◼
+<img src="assets/readme-title.svg"
+ alt="Hassan's 3D Portfolio">
 
 ### 🎨 Technical 3D Web Animator • ⚡ Workflow Creator • 🤖 AI & Agent Enthusiast
 
