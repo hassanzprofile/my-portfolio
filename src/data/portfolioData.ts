@@ -1,4 +1,10 @@
 import { Project, BlogPost, Service, Testimonial, Experience, SkillItem, PricingPlan, FaqItem, StatItem, GalleryItem } from '../types/portfolio';
+import p1 from '../asserts/p1.png'
+import p2 from '../asserts/p2.png'
+import p3 from '../asserts/p3.jpeg'
+import p4 from '../asserts/p4.jpeg'
+import p5 from '../asserts/p5.png'
+import p6 from '../asserts/p6.png'
 
 export const PROJECTS: Project[] = [
   {
@@ -6,7 +12,7 @@ export const PROJECTS: Project[] = [
     slug: '4k Ads',
     title: 'Custom Product Advertisement Ads',
     category: '4k Ads',
-    thumbnail: 'p1.png',
+    thumbnail: 'p1,
     videoUrl: '',
     threeModelType: 'cyber-helmet',
     gallery: [
