@@ -3,12 +3,12 @@ import { Project, BlogPost, Service, Testimonial, Experience, SkillItem, Pricing
 export const PROJECTS: Project[] = [
   {
     id: 'p1',
-    slug: '4K Ads',
-    title: '',
-    category: '4K Ads',
-    thumbnail: '',
+    slug: '4k Ads',
+    title: 'Custom Product Advertisement Ads',
+    category: '4k Ads',
+    thumbnail: 'p1.png',
     videoUrl: '',
-    threeModelType: '',
+    threeModelType: 'cyber-helmet',
     gallery: [
       '',
       '',
@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
     ],
     description: '',
     fullDetails: '',
-    technologies: ['Blender', 'ZBrush', 'Unreal Engine 5.5', 'Substance Painter', 'Marvelous Designer'],
+    technologies: ['VFX', 'Adobe', 'Blender', , ''],
     client: '',
     year: '2026',
     liveUrl: '',
@@ -24,16 +24,16 @@ export const PROJECTS: Project[] = [
     featured: true,
     stats: [
       { label: '', value: '' },
-      { label: '', value: ' ' },
-      { label: '', value: '' }
+      { label: '', value: '' },
+      { label: '', value: '60 FPS ' }
     ]
   },
   {
     id: 'p2',
-    slug: 'Web Devs',
-    title: '',
-    category: 'Web Devs',
-    thumbnail: '',
+    slug: 'Web Dev',
+    title: '3d-Website Animation',
+    category: 'Web Dev',
+    thumbnail: 'p2.png',
     videoUrl: '',
     threeModelType: '',
     gallery: [
@@ -42,9 +42,9 @@ export const PROJECTS: Project[] = [
     ],
     description: '',
     fullDetails: '',
-    technologies: ['Cinema 4D', 'Octane Render', 'After Effects', 'RizomUV', 'MoGraph'],
+    technologies: ['React', 'Node', 'Typescript', 'Canva', 'Javascript'],
     client: '',
-    year: '2025',
+    year: '',
     liveUrl: '',
     featured: true,
     stats: [
@@ -55,9 +55,9 @@ export const PROJECTS: Project[] = [
   {
     id: 'p3',
     slug: 'Voice AI',
-    title: '',
+    title: 'Voice Agent; Receptionist and Cold caller',
     category: 'Voice AI',
-    thumbnail: '',
+    thumbnail: 'p3.jpeg',
     videoUrl: '',
     threeModelType: '',
     gallery: [
@@ -66,7 +66,7 @@ export const PROJECTS: Project[] = [
     ],
     description: '',
     fullDetails: '',
-    technologies: ['Houdini', 'Redshift', 'After Effects', 'Nuke', 'Cinema 4D'],
+    technologies: ['Twilio', 'n8n', 'API', '', ''],
     client: '',
     year: '2026',
     liveUrl: '',
@@ -78,21 +78,21 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'p4',
-    slug: 'AI Chatbots',
-    title: '',
-    category: 'AI Chatbots',
-    thumbnail: 'chatbot.jpeg',
+    slug: 'Agentic AI',
+    title: 'Conversational Chatbot For Buisnesses',
+    category: 'Agentic AI',
+    thumbnail: 'p4.jpeg',
     videoUrl: '',
     threeModelType: '',
     gallery: [
-      '',
+      'chatbot-blur.jpeg',
       ''
     ],
     description: '',
     fullDetails: '',
-    technologies: [''],
+    technologies: ['n8n', 'social platform', 'API'],
     client: '',
-    year: '',
+    year: '2025',
     featured: false,
     stats: [
       { label: '', value: '' },
@@ -101,10 +101,10 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'p5',
-    slug: 'AI Content Calenders',
-    title: '',
-    category: 'AI Content Calenders',
-    thumbnail: '',
+    slug: 'AI Calender',
+    title: 'AI Content Calender for Creator ',
+    category: 'AI Calender',
+    thumbnail: 'p5.png',
     videoUrl: '',
     threeModelType: '',
     gallery: [
@@ -112,9 +112,9 @@ export const PROJECTS: Project[] = [
     ],
     description: '',
     fullDetails: '',
-    technologies: ['Nuke', 'Houdini', 'Maya', 'SynthEyes', 'Davinci Resolve'],
+    technologies: ['n8n', 'Integrated Calender', 'API', '', ''],
     client: '',
-    year: '',
+    year: '2026',
     featured: false,
     stats: [
       { label: '', value: '' }
@@ -122,18 +122,18 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 'p6',
-    slug: 'Buisness Automations',
-    title: '',
-    category: 'Buisness Automations',
-    thumbnail: '',
+    slug: 'AI Automation Workflows',
+    title: 'Overgrown Ruins - Procedural Blender Environment',
+    category: 'AI Automation Workflows',
+    thumbnail: 'p6.png',
     videoUrl: '',
     threeModelType: '',
     gallery: [
       ''
     ],
-    description: '.',
+    description: '',
     fullDetails: '',
-    technologies: ['Blender 4.3', 'Geometry Nodes', 'Cycles Render', 'Photoshop'],
+    technologies: ['n8n', 'API Keys', 'AI Models', 'Backend Integration'],
     client: '',
     year: '2026',
     githubUrl: '',
@@ -261,59 +261,90 @@ Texture mapping without UV unwrapping is the secret weapon for fast-paced commer
 export const SERVICES: Service[] = [
   {
     id: 's1',
-    title: '3D Character & Creature Animation',
-    description: 'High-octane character performances, mechanical walk cycles, lip-syncing, and cinematic combat choreography for games, film, and commercials.',
+    title: '4K AI Ads & Commercials',
+    description: 'Cinematic 4K AI-powered video ads, UGC style creatives, and product commercials that stop the scroll and convert. Built for TikTok, Reels, and YouTube Ads.',
     iconName: 'Clapperboard',
-    deliverables: ['Custom Character Rigging', 'Keyframe & Mocap Polishing', 'FBX / Alembic / USD Export', 'Facial Performance Capture'],
-    priceStarting: '$----',
-    turnaround: '3 - 7 Days',
+    deliverables: [
+      '4K AI Video Ad - 15s to 60s',
+      'AI UGC Creator + Voiceover',
+      'Script + Hook + CTA Optimization',
+      'Multi-format Export for Ads'
+    ],
+    priceStarting: '$499',
+    turnaround: '3 - 5 Days',
     popular: true
   },
   {
     id: 's2',
-    title: 'Character Rigging & Physics Setup',
-    description: 'Rock-solid FK/IK body armatures, facial blendshape trees, cloth/hair physics setups, and clean weight painting built for game engines or offline renders.',
-    iconName: 'Bone',
-    deliverables: ['Full Body FK/IK Controls', '100+ Facial Blendshapes', 'Dynamic Cloth & Hair Physics', 'Unreal Engine Control Rig'],
-    priceStarting: '$----',
-    turnaround: '2 - 5 Days'
+    title: '3D Interactive Websites',
+    description: 'Next-gen 3D web experiences with WebGL, Three.js, and Spline. Immersive portfolios, product showcases, and landing pages that feel like a game.',
+    iconName: 'Box',
+    deliverables: [
+      'Interactive 3D Hero Section',
+      'Product 3D Model Integration',
+      'Scroll Animations + Parallax',
+      'Mobile Optimized + Fast Loading'
+    ],
+    priceStarting: '$600',
+    turnaround: '7 - 14 Days',
+    popular: true
   },
   {
     id: 's3',
-    title: '3D Product Visualization & Commercials',
-    description: 'Photorealistic exploded-view CAD animations, studio lighting setups, liquid simulations, and broadcast-ready promotional product video spots.',
-    iconName: 'Box',
-    deliverables: ['High-poly Surface Refinement', 'Macro Camera Movements', '1080p / 4K Commercial Render', 'Sound Design Integration'],
-    priceStarting: '$-----',
-    turnaround: '5 - 10 Days',
+    title: 'AI Voice Agents',
+    description: 'Human-like AI voice agents for calls, support, and sales. 24/7 phone answering with GPT-4 + ElevenLabs. Speaks 30+ languages with emotion.',
+    iconName: 'Mic',
+    deliverables: [
+      'Custom AI Voice + Personality',
+      'CRM + Calendar Integration',
+      'Call Recording + Transcripts',
+      'Multi-language Support'
+    ],
+    priceStarting: '$350',
+    turnaround: '5 - 7 Days',
     popular: true
   },
   {
     id: 's4',
-    title: 'Kinetic Motion Graphics & VFX Title Sequences',
-    description: 'Abstract particle dynamics, futuristic broadcast openers, HUD hologram UI animations, and high-impact logo stings.',
-    iconName: 'Sparkles',
-    deliverables: ['Houdini Particle Dynamics', 'Custom 3D Typography', 'After Effects Compositing', 'Alpha Channel Video Formats'],
-    priceStarting: '$----',
-    turnaround: '3 - 6 Days'
+    title: 'AI Chatbot Agents',
+    description: 'Train GPT-4 chatbots on your business data. Website chat, WhatsApp, and Instagram DMs that qualify leads and close sales automatically.',
+    iconName: 'Bot',
+    deliverables: [
+      'Custom GPT Trained on Your Data',
+      'Website + WhatsApp + IG Integration',
+      'Lead Capture + Auto Follow-up',
+      'Analytics Dashboard'
+    ],
+    priceStarting: '$299',
+    turnaround: '3 - 5 Days'
   },
   {
     id: 's5',
-    title: 'Game-Ready 3D Assets & Environments',
-    description: 'Optimized low-poly props, mechanical drones, modular environment kits, PBR 4K textures, and collision mesh generation.',
-    iconName: 'Gamepad2',
-    deliverables: ['Sub-D Quad Topology', '4K PBR Texture Maps (PBR)', 'LOD 0-3 Generation', 'Unity & Unreal Project Files'],
-    priceStarting: '$----',
-    turnaround: '2 - 4 Days'
+    title: 'AI Content Calendar',
+    description: '30-day AI-generated content calendar with hooks, captions, and hashtags. For LinkedIn, Instagram, TikTok. Never run out of ideas again.',
+    iconName: 'Calendar',
+    deliverables: [
+      '30 Days Content Strategy',
+      'AI Generated Captions + Hashtags',
+      'Viral Hook Templates',
+      'Canva Design Templates Included'
+    ],
+    priceStarting: '$199',
+    turnaround: '2 - 3 Days'
   },
   {
     id: 's6',
-    title: 'High-End Video Editing & Color Grading',
-    description: 'Seamless pacing, sound mixing, motion tracking, chromatic color correction, and final master encoding for digital platforms.',
-    iconName: 'Video',
-    deliverables: ['Timeline Editing', 'Color Pass in DaVinci Resolve', 'Sound Effects & Foley Mix', 'Social Media Format Exports'],
-    priceStarting: '$----',
-    turnaround: '1 - 3 Days'
+    title: 'AI Automation Workflows',
+    description: 'Zapier, Make, n8n automations to save 10+ hours/week. Connect ChatGPT, Sheets, Email, CRM. Full business automation on autopilot.',
+    iconName: 'Brain',
+    deliverables: [
+      'Custom n8n Workflow',
+      'GPT Integration + Data Processing',
+      'Email + CRM + Sheet Automation',
+      '1 Month Support + Documentation'
+    ],
+    priceStarting: '$450',
+    turnaround: '5 - 10 Days'
   }
 ];
 
@@ -323,9 +354,9 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Marcus Sterling',
     role: 'Creative Director',
     company: 'Apex Game Studios',
-    avatar: 'yyy.jpeg',
+    avatar: '',
     rating: 5,
-    review: 'Hassan delivered unbelievable character rigging for our AAA sci-fi shooter prototype. The facial blendshapes integrated seamlessly into Unreal Engine 5 without a single hitch!',
+    review: 'delivered unbelievable character rigging for our AAA sci-fi shooter prototype. The facial blendshapes integrated seamlessly into Unreal Engine 5 without a single hitch!',
     projectRef: 'Aetheria - Cyberpunk Character'
   },
   {
@@ -333,7 +364,7 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'Elena Rostova',
     role: 'Head of Product Marketing',
     company: 'Lumina Tech',
-    avatar: 'yyy.jpeg',
+    avatar: '',
     rating: 5,
     review: 'The 3D exploded view product commercial generated over 2.4M organic views on launch week. The lighting, camera choreography, and glass textures were absolute perfection.',
     projectRef: 'Lumina Smartwatch Reveal'
@@ -343,9 +374,9 @@ export const TESTIMONIALS: Testimonial[] = [
     name: 'David Chen',
     role: 'Executive Producer',
     company: 'Vanguard Pictures',
-    avatar: 'yyy.jpeg',
+    avatar: '',
     rating: 5,
-    review: 'Hassan has an exceptional eye for timing, weight, and visual polish. He completed our title VFX sequence ahead of schedule and incorporated feedback instantly.',
+    review: ' has an exceptional eye for timing, weight, and visual polish. He completed our title VFX sequence ahead of schedule and incorporated feedback instantly.',
     projectRef: 'Quantum Realm Title VFX'
   }
 ];
@@ -404,99 +435,100 @@ export const SKILLS: SkillItem[] = [
 
 export const PRICING_PLANS: PricingPlan[] = [
   {
-    id: '',
-    name: '',
-    price: '',
-    period: '',
-    description: '',
+    id: 'p-starter',
+    name: 'Starter Pack',
+    price: '$499',
+    period: 'per project',
+    description: 'Perfect for creators and small businesses starting with AI + 3D.',
     features: [
-      '',
-      '',
-      '',
-      '',
-      '',
-      ''
-    ],
-    highlighted: false,
-    ctaText: ''
-  },
-  {
-    id: '',
-    name: '',
-    price: '',
-    period: '',
-    description: '',
-    features: [
-      '',
-      '',
-      '',
-      '',
-      '',
-      '',
-      ''
+      '1x 4k Product Advertisement Ad - 15s',
+      'Basic 3d-Website Animation Landing Section',
+      'AI Content Calendar - 1 Month',
+      '2 Revision Rounds',
+      'Email Support',
+      '5-7 Days Turnaround'
     ],
     highlighted: true,
-    ctaText: ''
+    ctaText: 'Choose'
   },
   {
-    id: '',
-    name: '',
-    price: '',
-    period: '',
-    description: '',
+    id: 'p-standard',
+    name: 'Standard Pack',
+    price: '$1,499',
+    period: 'per project',
+    description: 'Most popular for businesses needing automation + web + ads.',
     features: [
-      '',
-      '',
-      '',
-      '',
-      '',
-      ''
+      'Full 3d-Website Animation - 5 Pages',
+      'Voice AI Agent: Receptionist + Cold Caller',
+      'Conversational Chatbot for Website/Social',
+      '2x 4k Product Advertisement Ads',
+      'Unlimited Revisions during Draft',
+      'Priority Support + n8n Setup',
+      '10-14 Days Turnaround'
     ],
-    highlighted: false,
-    ctaText: ''
+    highlighted: true,
+    ctaText: 'Choose'
+  },
+  {
+    id: 'p-pro',
+    name: 'Pro Agency Pack',
+    price: '$3,999+',
+    period: 'per campaign',
+    description: 'Full-stack solution for brands. All 6 services + custom workflows.',
+    features: [
+      'All 6 Services Included',
+      'AI Automation Workflows - Unlimited',
+      'AI Content Calendar - 3 Months',
+      'Custom Voice AI + Chatbot Training',
+      'Advanced 3D Website + Animations',
+      'Monthly Ads + VFX Package',
+      'Dedicated Manager + 24/7 Slack Access',
+      'Full IP Ownership & Source Files'
+    ],
+    highlighted: true,
+    ctaText: 'Choose'
   }
 ];
-
 export const FAQS: FaqItem[] = [
   {
     id: '',
     question: '',
     answer: '',
-    category: ''
+    category: '',
   },
   {
     id: '',
     question: '',
     answer: '',
-    category: ''
+    category: '',
   },
   {
     id: '',
     question: '',
     answer: '',
-    category: ''
+    category: '',
   },
   {
     id: '',
     question: '',
     answer: '',
-    category: ''
+    category: '',
   }
 ];
 
 export const STATS: StatItem[] = [
   { id: 's1', label: 'Projects Completed', value: 20, suffix: '+', icon: 'CheckCircle2' },
-  { id: 's2', label: 'Happy Global Clients', value: 9, suffix: '+', icon: 'Smile' },
-  { id: 's3', label: 'Industry Awards', value: 2, suffix: '', icon: 'Trophy' },
+  { id: 's2', label: 'Happy Global Clients', value: 9, suffix: '', icon: 'Smile' },
+  { id: 's3', label: 'Industry Awards', value:2, suffix: '', icon: 'Trophy' },
   { id: 's4', label: 'Years Experience', value: 2, suffix: ' Yrs', icon: 'Calendar' },
-  { id: 's5', label: 'Render Hours Saved', value: 120, suffix: 'h', icon: 'Zap' }
+  { id: 's5', label: 'Render Hours Saved', value: 125, suffix: 'h', icon: 'Zap' }
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
-  { id: 'g1', title: 'Cybernetic Skull Surface Polish', category: 'Character Animation', imageUrl: '', software: 'ZBrush & Substance', likes: 342 },
-  { id: 'g2', title: 'Neomorphic Glass Prism Refraction', category: 'Motion Graphics', imageUrl: '', software: 'Cinema 4D Octane', likes: 289 },
-  { id: 'g3', title: 'Titanium Smartwatch Casing', category: 'Product Animation', imageUrl: '', software: 'Blender Cycles', likes: 512 },
-  { id: 'g4', title: 'Quantum Core Energy Field', category: 'VFX', imageUrl: '', software: 'Houdini Axiom', likes: 418 },
-  { id: 'g5', title: 'Sci-Fi Corridor Modular Kit', category: 'Agentic AI', imageUrl: 'chatbot.jpeg', software: 'Unreal Engine 5.5', likes: 305 },
-  { id: 'g6', title: 'Ancient Ruin Moss Scattering', category: 'Blender Projects', imageUrl: '0', software: 'Geometry Nodes', likes: 620 }
+  {id:'g1',title:'Custom Product Advertisement Ads',category:'4k Ads',imageUrl:'p1.png',software:'VFX, Adobe, Blender +2'},
+  {id:'g2',title:'3d-Website Animation',category:'Web Dev',imageUrl:'p2.png',software:'React, Node, Typescript +2'},
+  {id:'g3',title:'Voice Agent: Receptionist and Cold caller',category:'Voice AI',imageUrl:'p3.jpeg',software:'Twilio, n8n, API +2'},
+  {id:'g4',title:'Conversational Chatbot For Businesses',category:'Agentic AI',imageUrl:'p4.jpeg',software:'n8n, social platform, API'},
+  {id:'g5',title:'AI Content Calender for Creator',category:'AI Calender',imageUrl:'p5.png',software:'n8n, Integrated Calender, API +2'},
+  {id:'g6',title:'Overgrown Ruins - Procedural Blender Environment',category:'AI Automation Workflows',imageUrl:'p6.png',software:'n8n, API Keys, AI Models +1'},
 ];
