@@ -12,7 +12,7 @@ export const PROJECTS: Project[] = [
     slug: '4k Ads',
     title: 'Custom Product Advertisement Ads',
     category: '4k Ads',
-    thumbnail: 'p1,
+    thumbnail: p1,
     videoUrl: '',
     threeModelType: 'cyber-helmet',
     gallery: [
