@@ -54,7 +54,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialSubject }
 
   const openWhatsApp = () => {
     const text = encodeURIComponent("Hi Hassan! I'm interested in commissioning a project.");
-    window.open(`https://wa.me/+923176652745?text=${text}`, '_blank');
+    window.open(`https://wa.me/923176652745?text=${text}`, '_blank');
   };
 
   return (
