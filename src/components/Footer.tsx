@@ -46,7 +46,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenZipModal }) =>
                 </div>
               </div>
               <span className="text-lg font-bold tracking-tight text-white">
-                Calliqo<span className="text-purple-400">3D Agency</span>
+                Hassan's<span className="text-purple-400">Portfolio</span>
               </span>
             </div>
 
@@ -56,13 +56,13 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenZipModal }) =>
 
             {/* Social icons */}
             <div className="flex items-center gap-2 pt-2">
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="p-2 rounded-xl glass-panel text-slate-300 hover:text-white">
+              <a href="https://github.com/hassanzprofile" target="_blank" rel="noreferrer" className="p-2 rounded-xl glass-panel text-slate-300 hover:text-white">
                 <Github className="w-4 h-4" />
               </a>
               <a href="https://twitter.com" target="_blank" rel="noreferrer" className="p-2 rounded-xl glass-panel text-slate-300 hover:text-cyan-300">
                 <Twitter className="w-4 h-4" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-2 rounded-xl glass-panel text-slate-300 hover:text-blue-400">
+              <a href="https://www.linkedin.com/in/hassan-imran-7742b5295?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" className="p-2 rounded-xl glass-panel text-slate-300 hover:text-blue-400">
                 <Linkedin className="w-4 h-4" />
               </a>
               {/* <a href="https://youtube.com" target="_blank" rel="noreferrer" className="p-2 rounded-xl glass-panel text-slate-300 hover:text-rose-400">
@@ -133,7 +133,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenZipModal }) =>
 
         {/* Bottom Rights */}
         <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between text-slate-400 text-[11px] font-mono gap-4">
-          <div>©  3D Animation Agency. All rights reserved.</div>
+          <div>© All rights reserved.</div>
           <div className="flex items-center gap-4">
             <span></span>
             <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-cyan-400 hover:underline flex items-center gap-1">
