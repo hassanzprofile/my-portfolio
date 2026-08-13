@@ -23,7 +23,7 @@ creative work, technical skills, projects, services and professional experience.
 </div>
 <div align="left">
 <br/>
-![Live Preview] :()
+![Live Preview] :(https://my-portfolio-sigma-tan-99.vercel.app/)
 <br/>
 </div>
 
