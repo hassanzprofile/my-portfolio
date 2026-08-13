@@ -85,7 +85,7 @@ export const PROJECTS: Project[] = [
     videoUrl: '',
     threeModelType: '',
     gallery: [
-      'chatbot-blur.jpeg',
+      '',
       ''
     ],
     description: '',
@@ -435,58 +435,58 @@ export const SKILLS: SkillItem[] = [
 
 export const PRICING_PLANS: PricingPlan[] = [
   {
-    id: 'p-starter',
-    name: 'Starter Pack',
-    price: '$499',
-    period: 'per project',
-    description: 'Perfect for creators and small businesses starting with AI + 3D.',
+    id: '',
+    name: '',
+    price: '',
+    period: '',
+    description: '',
     features: [
-      '1x 4k Product Advertisement Ad - 15s',
-      'Basic 3d-Website Animation Landing Section',
-      'AI Content Calendar - 1 Month',
-      '2 Revision Rounds',
-      'Email Support',
-      '5-7 Days Turnaround'
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
     ],
     highlighted: true,
-    ctaText: 'Choose'
+    ctaText: ''
   },
   {
-    id: 'p-standard',
-    name: 'Standard Pack',
-    price: '$1,499',
-    period: 'per project',
-    description: 'Most popular for businesses needing automation + web + ads.',
+    id: '',
+    name: '',
+    price: '',
+    period: '',
+    description: '',
     features: [
-      'Full 3d-Website Animation - 5 Pages',
-      'Voice AI Agent: Receptionist + Cold Caller',
-      'Conversational Chatbot for Website/Social',
-      '2x 4k Product Advertisement Ads',
-      'Unlimited Revisions during Draft',
-      'Priority Support + n8n Setup',
-      '10-14 Days Turnaround'
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
     ],
     highlighted: true,
-    ctaText: 'Choose'
+    ctaText: ''
   },
   {
-    id: 'p-pro',
-    name: 'Pro Agency Pack',
-    price: '$3,999+',
-    period: 'per campaign',
-    description: 'Full-stack solution for brands. All 6 services + custom workflows.',
+    id: '',
+    name: '',
+    price: '',
+    period: '',
+    description: '',
     features: [
-      'All 6 Services Included',
-      'AI Automation Workflows - Unlimited',
-      'AI Content Calendar - 3 Months',
-      'Custom Voice AI + Chatbot Training',
-      'Advanced 3D Website + Animations',
-      'Monthly Ads + VFX Package',
-      'Dedicated Manager + 24/7 Slack Access',
-      'Full IP Ownership & Source Files'
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      '',
+      ''
     ],
     highlighted: true,
-    ctaText: 'Choose'
+    ctaText: ''
   }
 ];
 export const FAQS: FaqItem[] = [
