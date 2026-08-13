@@ -53,8 +53,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialSubject }
   };
 
   const openWhatsApp = () => {
-    const text = encodeURIComponent("Hi Hassan! I'm interested in commissioning a 3D animation project.");
-    window.open(`https://wa.me/15550192834?text=${text}`, '_blank');
+    const text = encodeURIComponent("Hi Hassan! I'm interested in commissioning a project.");
+    window.open(`https://wa.me/+923176652745?text=${text}`, '_blank');
   };
 
   return (
@@ -80,7 +80,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialSubject }
           {/* Left Direct Details & Map */}
           <div className="lg:col-span-5 space-y-6">
             <div className="glass-panel p-6 sm:p-8 rounded-3xl border border-white/10 space-y-6">
-              <h3 className="text-xl font-bold text-white">Agency Contact Info</h3>
+              <h3 className="text-xl font-bold text-white">Contact Info</h3>
 
               <div className="space-y-4 text-xs">
                 <div className="flex items-center gap-3">
@@ -100,8 +100,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialSubject }
                     <Phone className="w-4 h-4" />
                   </div>
                   <div>
-                    <span className="text-slate-400 font-mono block">Agency Line</span>
-                    <span className="text-white font-semibold">+1 (929) 612-8224</span>
+                    <span className="text-slate-400 font-mono block">Contact Line</span>
+                    <span className="text-white font-semibold">+92 317 6652745</span>
                   </div>
                 </div>
 
@@ -174,7 +174,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ initialSubject }
                   <label className="text-xs text-slate-300 font-mono block mb-1">Email Address *</label>
                   <input
                     type="email"
-                    placeholder="e.g. calio123@gmail.com"
+                    placeholder="e.g. yourname@gmail.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
