@@ -1,10 +1,4 @@
 import { Project, BlogPost, Service, Testimonial, Experience, SkillItem, PricingPlan, FaqItem, StatItem, GalleryItem } from '../types/portfolio';
-import p1 from '../asserts/p1.png';
-import p2 from '../asserts/p2.png';
-import p3 from '../asserts/p3.jpeg';
-import p4 from '../asserts/p4.jpeg';
-import p5 from '../asserts/p5.png';
-import p6 from '../asserts/p6.png';
 
 export const PROJECTS: Project[] = [
   {
@@ -12,7 +6,7 @@ export const PROJECTS: Project[] = [
     slug: '4k Ads',
     title: 'Custom Product Advertisement Ads',
     category: '4k Ads',
-    thumbnail: p1,
+    thumbnail: '',
     videoUrl: '',
     threeModelType: 'cyber-helmet',
     gallery: [
@@ -39,7 +33,7 @@ export const PROJECTS: Project[] = [
     slug: 'Web Dev',
     title: '3d-Website Animation',
     category: 'Web Dev',
-    thumbnail: 'p2.png',
+    thumbnail: '',
     videoUrl: '',
     threeModelType: '',
     gallery: [
@@ -63,7 +57,7 @@ export const PROJECTS: Project[] = [
     slug: 'Voice AI',
     title: 'Voice Agent; Receptionist and Cold caller',
     category: 'Voice AI',
-    thumbnail: 'p3.jpeg',
+    thumbnail: '',
     videoUrl: '',
     threeModelType: '',
     gallery: [
@@ -87,7 +81,7 @@ export const PROJECTS: Project[] = [
     slug: 'Agentic AI',
     title: 'Conversational Chatbot For Buisnesses',
     category: 'Agentic AI',
-    thumbnail: 'p4.jpeg',
+    thumbnail: '',
     videoUrl: '',
     threeModelType: '',
     gallery: [
@@ -110,7 +104,7 @@ export const PROJECTS: Project[] = [
     slug: 'AI Calender',
     title: 'AI Content Calender for Creator ',
     category: 'AI Calender',
-    thumbnail: 'p5.png',
+    thumbnail: '',
     videoUrl: '',
     threeModelType: '',
     gallery: [
@@ -131,7 +125,7 @@ export const PROJECTS: Project[] = [
     slug: 'AI Automation Workflows',
     title: 'Overgrown Ruins - Procedural Blender Environment',
     category: 'AI Automation Workflows',
-    thumbnail: 'p6.png',
+    thumbnail: '',
     videoUrl: '',
     threeModelType: '',
     gallery: [
@@ -155,7 +149,7 @@ export const BLOG_POSTS: BlogPost[] = [
     id: 'b1',
     slug: 'mastering-3d-character-rigging-blender-2026',
     title: 'Mastering Advanced 3D Character Rigging in Blender 4.3+',
-    coverImage: 'yyy.jpeg',
+    coverImage: '',
     category: 'Rigging & Animation',
     tags: ['Blender', 'Rigging', 'Character Design', 'Tutorial', 'GameDev'],
     description: 'A comprehensive deep-dive into bone constraints, weight painting workflows, driver expressions, and non-destructive facial setups.',
