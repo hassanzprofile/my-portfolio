@@ -14,20 +14,20 @@ async function startServer() {
   const commentsStore: Record<string, Array<{ id: string; name: string; email: string; content: string; date: string; avatar: string }>> = {
     'mastering-3d-character-rigging-blender-2026': [
       {
-        id: 'c1',
-        name: 'Alex Rivera',
-        email: 'alex@motion.io',
-        content: 'This guide on weight painting saving nodes is fantastic! Solved my elbow deformation issue immediately.',
-        date: '2026-07-20',
-        avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80'
+        id: '',
+        name: '',
+        email: '',
+        content: '',
+        date: '',
+        avatar: ''
       },
       {
-        id: 'c2',
-        name: 'Samantha Wu',
-        email: 'sam@gamedev.com',
-        content: 'Would love to see a follow up post covering face blendshapes in Unreal Engine 5.5!',
-        date: '2026-07-22',
-        avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80'
+        id: '',
+        name: '',
+        email: '',
+        content: '',
+        date: '',
+        avatar: ''
       }
     ]
   };
