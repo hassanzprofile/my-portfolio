@@ -8,7 +8,7 @@ export const GallerySection: React.FC = () => {
   const [lightboxItem, setLightboxItem] = useState<GalleryItem | null>(null);
   const [likes, setLikes] = useState<Record<string, number>>({});
 
-  const categories = ['All', 'Character Animation', 'Product Animation', 'Motion Graphics', 'VFX', 'Blender Projects'];
+  const categories = ['All', '4k Ads', '3D Webs', 'Voice Ai', 'Chatbots', 'Ai Content Calenders','Ai buisness Automation'];
 
   const filteredItems = GALLERY_ITEMS.filter(
     (item) => selectedCategory === 'All' || item.category === selectedCategory
