@@ -2,7 +2,6 @@ import express from 'express';
 import path from 'path';
 import fs from 'fs';
 import { createServer as createViteServer } from 'vite';
-import JSZip from 'jszip';
 
 async function startServer() {
   const app = express();
@@ -134,49 +133,7 @@ async function startServer() {
       await addFilesRecursively(rootDir, zip);
 
       // Add a helpful README.md for local setup
-      const readmeContent = `# 3D Animation Studio Portfolio & Blog
-
-This is a complete, production-ready 3D Animation & Motion Graphics Portfolio & Blog website built with React, TypeScript, Vite, Tailwind CSS, Three.js, Motion, and an Express backend.
-
-## 🚀 How to Run Locally
-
-### Prerequisites
-- Node.js (v18 or higher recommended)
-- npm or yarn
-
-### Setup Steps
-1. Extract this zip file to your preferred directory.
-2. Open terminal in the project directory.
-3. Install dependencies:
-   \`\`\`bash
-   npm install
-   \`\`\`
-4. Run development server:
-   \`\`\`bash
-   npm run dev
-   \`\`\`
-5. Open your browser at:
-   \`\`\`
-   http://localhost:3000
-   \`\`\`
-
-## 📦 Production Build
-To create a production build and run in Node.js:
-\`\`\`bash
-npm run build
-npm start
-\`\`\`
-
-## Features
-- 🎮 Interactive 3D Canvas scenes with Three.js
-- 📁 Filterable Portfolio with 3D Modal Viewer & Video Preview
-- 📝 Full-Featured Blog with Search, Tags, & Interactive Comment system
-- 💼 Services Showcase with Interactive Pricing Calculator
-- 📊 Animated Stats Counter & Skills Timeline
-- 💬 Client Testimonials Slider
-- 📧 Contact Form with Express Backend API & Map Integration
-- 🌓 Dark/Light Mode Persistence
-- 📦 Built-in ZIP exporter API & UI
+      const readmeContent = `
 `;
 
       zip.file('README_RUN_INSTRUCTIONS.md', readmeContent);
