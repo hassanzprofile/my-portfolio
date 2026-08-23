@@ -6,7 +6,4 @@ coverage/
 *.log
 .env*
 !.env.example
-chatbot.jpeg
-yyy.jpeg
 public
-chatbot-blur.jpeg
