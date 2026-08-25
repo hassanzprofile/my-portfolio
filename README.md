@@ -8,7 +8,7 @@
 
 
 
-### 🎨 Technical 3D Web Animator • ⚡ Workflow Creator • 🤖 AI & Agent Enthusiast
+###  Technical 3D Web Animator •  Workflow Creator •  AI & Agent Enthusiast
 
 A modern, interactive and visually immersive personal portfolio built to showcase
 creative work, technical skills, projects, services and professional experience.
@@ -21,56 +21,56 @@ creative work, technical skills, projects, services and professional experience.
 ![Vite](https://img.shields.io/badge/Vite-Fast-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 <br/>
 </div>
-<div align="left">
-<br/>
-![Live Preview] :(https://my-portfolio-sigma-tan-99.vercel.app/)
-<br/>
-</div>
+<p align="center">
+  <a href="https://my-portfolio-sigma-tan-99.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🔴_LIVE_PREVIEW-Click%20to%20see%20Portfolio-red?style=for-the-badge&logo=vercel" />
+  </a>
+</p>
 
 
 
-# 🌟 About The Project
+#  About The Project
 
 This is a modern, responsive and interactive personal portfolio
 designed to present professional work through a visually rich digital experience.
 
 Instead of using a traditional static portfolio layout, the website focuses on:
 
- 🎨 Modern visual design
- 🧊 3D-inspired interfaces
- ✨ Smooth animations and interactions
- 📱 Responsive layouts
- 🖼️ Creative project galleries
- 📝 Detailed project information
- 💼 Professional services
- 🤖 AI and workflow-related capabilities
- 📊 Experience and achievements
- 📬 Contact and communication sections
+  Modern visual design
+  3D-inspired interfaces
+  Smooth animations and interactions
+  Responsive layouts
+  Creative project galleries
+  Detailed project information
+  Professional services
+  AI and workflow-related capabilities
+  Experience and achievements
+  Contact and communication sections
 
 The goal is to combine **design, animation, technology and professional presentation**
 into a single immersive portfolio experience.
 
 
 
-# 🎯 Project Goals
+#  Project Goals
 
 The main goals of this project are:
 
- 🚀 Build a professional personal portfolio
- 🎨 Create a unique visual identity
--🧊 Introduce interactive 3D-inspired elements
- ⚡ Provide fast and smooth navigation
- 📱 Make the website fully responsive
- 🖼️ Showcase creative projects and work
- 💼 Present professional services
- 🤖 Highlight AI, automation and workflow capabilities
- 🔥 Create an engaging experience for visitors
+  Build a professional personal portfolio
+  Create a unique visual identity
+ Introduce interactive 3D-inspired elements
+ Provide fast and smooth navigation
+  Make the website fully responsive
+  Showcase creative projects and work
+  Present professional services
+  Highlight AI, automation and workflow capabilities
+  Create an engaging experience for visitors
 
 
 
-# ✨ Features
+#  Features
 
-## 🏠 Home
+##  Home
 
 The homepage introduces the portfolio with:
 
@@ -83,38 +83,38 @@ The homepage introduces the portfolio with:
 
 
 
-## 🎨 Portfolio
+##  Portfolio
 
 A dedicated portfolio section for showcasing projects and creative work.
 
 Features include:
 
- 🖼️ Project gallery
- 📂 Project categories
- ❤️ Like/engagement functionality
- 🔍 Project details
- 🧩 Project technology information
- 📋 Detailed project modal
- 🖥️ Visual previews
+  Project gallery
+  Project categories
+  Like/engagement functionality
+  Project details
+  Project technology information
+  Detailed project modal
+  Visual previews
 
 
 
-## 💼 Services
+##  Services
 
 The website presents professional services in an organized and visually appealing
 format.
 
 Examples include:
 
- 🎨 3D Web Experiences
- ⚡ Web Animation
- 🤖 AI & Agent Workflows
- 🔄 Automation
- 🧩 Custom Digital Experiences
+  3D Web Experiences
+  Web Animation
+  AI & Agent Workflows
+  Automation
+  Custom Digital Experiences
 
 
 
-## 📝 Blog
+##  Blog
 
 A dedicated blog section for sharing:
 
@@ -126,7 +126,7 @@ A dedicated blog section for sharing:
 
 
 
-## 👤 About
+##  About
 
 The About section provides information about:
 
@@ -139,41 +139,41 @@ The About section provides information about:
 
 
 
-## 🏆 Statistics & Achievements
+##  Statistics & Achievements
 
 The portfolio includes a statistics section highlighting important
 professional information such as:
 
- ⭐ Awards
- 📅 Years of experience
- ⚡ Projects
- ⏱️ Time saved through workflows
- 📈 Professional achievements
+  Awards
+  Years of experience
+  Projects
+  Time saved through workflows
+  Professional achievements
 
 
-## 📬 Contact
+##  Contact
 
 Visitors can use the contact section to get in touch for:
 
- 💼 Freelance work
- 🤝 Collaboration
- 📁 Project opportunities
- 💡 Creative ideas
- 📩 Professional inquiries
+  Freelance work
+  Collaboration
+  Project opportunities
+  Creative ideas
+  Professional inquiries
 
 
 
-# 🛠️ Technologies Used
+#  Technologies Used
 
 This project is built using modern frontend technologies.
 
-### ⚛️ Frontend
+###  Frontend
 
  **React**  Component based user interface
  **TypeScript**  Type safe JavaScript development
  **Vite**  Fast development and production build system
 
-### 🎨 Styling
+###  Styling
 
  **Tailwind CSS**  Utility first responsive styling
  Custom CSS
@@ -181,7 +181,7 @@ This project is built using modern frontend technologies.
  Modern UI effects
  Gradients and glassmorphism inspired components
 
-### ✨ Animation & Interaction
+###  Animation & Interaction
 
  **Motion / Framer Motion**  Smooth UI animations and transitions
  Interactive hover effects
@@ -189,14 +189,14 @@ This project is built using modern frontend technologies.
  Animated components
  Dynamic visual effects
 
-### 🧊 3D / Graphics
+###  3D / Graphics
 
  **Three.js / React Three Fiber**  Interactive 3D experiences
  Canvas-based visual elements
  3D-inspired backgrounds
  Dynamic graphical effects
 
-### 🔧 Development Tools
+###  Development Tools
 
  Visual Studio Code
  Git
